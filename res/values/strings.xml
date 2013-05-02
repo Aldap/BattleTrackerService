@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Foreground Service</string>
+    <string name="menu_settings">Settings</string>
+    <string name="btnExit">Exit</string>
+    <string name="loginEdit">Login (five chars)</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+        <string name="status">status</string>
+    <string name="result">result</string>  
+</resources>

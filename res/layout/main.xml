@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+	<EditText
+	    android:id="@+id/loginEdit"
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:singleLine="true"
+	    android:layout_alignParentLeft="true"
+	    android:layout_toLeftOf="@+id/btn"
+	    android:hint="@string/loginEdit" />
+
+      <Button
+          android:id="@id/btn"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentRight="true"
+          android:text="@string/start"
+          android:onClick="btnClick" /> 
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/status"
+        android:layout_below="@id/loginEdit" />
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/result" 
+        android:layout_below="@id/status"  />      
+      	
+      <Button
+          android:id="@+id/btnExit"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:text="@string/btnExit"
+          android:onClick="onBtnExit" />
+</RelativeLayout>
